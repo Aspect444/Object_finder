@@ -1,0 +1,41 @@
+.ii{
+    width: 80%;
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+}
+
+body{
+    background:url("background.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.me{
+    font-size: medium;
+    color: black;
+    font-family: normal;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(3, 167, 3);
+    color: white;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    padding-top: 8px;
+}
+
+canvas{
+    border: 3px solid black;
+}
+
+.pad{
+    padding-top: 5px;
+}

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Object Detection</title>
+        <link rel="icon" href="glass.png" type="image/icon type">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1 class="ii btn btn-warning"> Object Finder <br> <label class="me"> <b>Note : </b>Type The Name of the object you have to find</label></h1>
+        <br><br>
+        <label class="btn btn-info">Object Name</label>
+        <br><br>
+        <input class="btn btn-default" id="input" placeholder="Type Here" style="width: 30%;">
+        <br><br>
+        <button class="btn btn-success" onclick="start()">Start</button>
+        <br><br>
+        <label class="btn btn-primary" id="status">Status : </label>
+        <label class="btn btn-danger" id="found">Found</label>
+        <footer class="footer">Developed by ~ Hamza Memon using COCO.SSD model</footer>
+    </center>
+    <script src="main.js" ></script>
+    </body>
+</html>
